@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="hail.css" />
+        <script src="jquery/jquery.min.js"></script>
+        <title>冰雹猜想验算</title>
+    </head>
+    <body>
+        <h1>冰雹猜想验算</h1>
+        <div></div>
+        <form action="javascript:void(0)">
+            <input type="button" value="再算100个数" onclick="calc(1)" />
+            <input type="button" value="再算500个数" onclick="calc(5)" />
+            <input type="button" value="再算1000个数（速度会变慢）" onclick="calc(10)" /><br /><br />
+            <input type="button" value="再算5000个数（小心死机）" onclick="calc(50)" />
+            <input type="button" value="再算10000个数（谨慎！谨慎！）" onclick="calc(100)" />
+            <input type="button" value="再算50000个数（你想算就算吧）" onclick="calc(500)" /><br /><br />
+            <input type="button" value="再算10万个数" onclick="calc(1000)" />
+            <input type="button" value="再算50万个数" onclick="calc(5000)" />
+            <input type="button" value="再算100万个数（别让我算了！）" onclick="calc(10000)" /><br /><br />
+            <input type="button" value="再算500万个数（真的要不行了！）" onclick="calc(50000)" />
+            <input type="button" value="再算1000万个数" onclick='window.alert("想得美！")' />
+            <input type="button" value="再算5000万个数" /><br /><br />
+            <input type="button" value="再算1亿个数" onclick="window.close()" />
+        </form>
+        <script src="hail.js"></script>
+    </body>
+</html>
