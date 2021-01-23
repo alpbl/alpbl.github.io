@@ -1,4 +1,5 @@
-var num = 0, cur, i = 0, j, calc = function(t) {
+var num = 0, cur, i, j, calc = function(t) {
+    i = 0;
     while (i < t) {
         if (num > 0) {
             $("div").append("<hr />");
